@@ -1,11 +1,43 @@
-.images{
-    fle
+/*header section*/
+.header{
+    background: #1f2937;
+    color:#f9faf8;
+    font-size: 24px;
+
+}
+
+#links{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/*section 1*/
+
+
+
+/*section 2*/
+.image-set{
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .images{
     width: 150px;
     height: 150px;
-    background-color: aqua;
+    background-color: #;
     border-radius: 20px;
-    border:double 5px blue;
+    border:solid 5px #3882f6;
 }
+
+/*section 3*/
+
+
+
+
+/*section 4*/
+
+
+
+
+/*footer*/
