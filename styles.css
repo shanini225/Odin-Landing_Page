@@ -1,14 +1,30 @@
-/*header section*/
-.header{
-    background: #1f2937;
-    color:#f9faf8;
-    font-size: 24px;
-
+/*body*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#links{
+
+
+/*header section*/
+.header {
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 500px;
+    background: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+#web-header{
+    padding-left: "0px";
+}
+#links {
     color: #e5e7eb;
     font-size: 18px;
+    padding: 20px;
 }
 
 /*section 1*/
@@ -16,18 +32,18 @@
 
 
 /*section 2*/
-.image-set{
+.image-set {
     display: flex;
     flex-direction: row;
-    
+
 }
 
-.images{
+.images {
     width: 150px;
     height: 150px;
     background-color: #;
     border-radius: 20px;
-    border:solid 5px #3882f6;
+    border: solid 5px #3882f6;
 }
 
 /*section 3*/
