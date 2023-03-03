@@ -59,13 +59,13 @@ body {
     height: 60px;
     border-radius: 8px;
     font-size: 20px;
-    font-weight: ;
+    font-weight: bold;
     color: #f9faf8;
     margin: auto;
     background-color: #3882f6;
 }
 
-.sign-up:hover{
+.sign-up:hover {
     background-color: #3370d3;
 }
 
@@ -100,8 +100,8 @@ body {
     justify-content: center;
 }
 
-.s2-title{
-    margin: 30px;    
+.s2-title {
+    margin: 30px;
     font-size: 26px;
     text-align: center;
     font-weight: bold;
@@ -114,29 +114,30 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px;
-    gap:20px;
+    gap: 20px;
     text-align: center;
 
 }
+
 .images {
     width: 150px;
     height: 150px;
     background-color: #fff;
     border-radius: 20px;
     border: solid 5px #3882f6;
-    
+
 }
 
-.set{
+.set {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
-p{
+p {
     padding: 10px;
-    font-size:20px;
+    font-size: 20px;
 }
 
 /* SECTION 3 */
@@ -149,17 +150,72 @@ p{
     background-color: #e5e7eb;
 }
 
-.s3-wrapper{
+.s3-wrapper {
     width: 50%;
 }
 
-.quote{
+.quote {
     font-size: 36px;
-    color:#1f2937;
+    color: #1f2937;
 }
 
-.author{
+.author {
     font-size: 20px;
-    color:#3882f6;
+    color: #3882f6;
     text-align: right;
+}
+
+/* SECTION 4 */
+.section-4 {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #e5e7eb;
+}
+
+.s4-wrapper {
+    width: 60%;
+    background-color: #3882f6;    
+    border-radius: 6px;
+    padding: 10px;
+    
+}
+
+.s4-leftside{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h3{
+    margin: 0;
+    font-size: 26px;
+}
+
+.s4-text{
+    padding: 0px;
+}
+
+
+.sign-up2 {
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight:bold;
+    color: #1f2937;
+    margin: 20px;
+    background-color: #e3e3e3;
+    border-color: #fff;
+    
+}
+
+.sign-up2:hover {
+    background-color: #a7bcdd;
+    color: #fff;
 }
