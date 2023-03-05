@@ -1,6 +1,8 @@
 /* BODY */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; 
+    padding: 0;
 }
 
 /* HEADER */
@@ -60,13 +62,16 @@ body {
     border-radius: 8px;
     font-size: 20px;
     font-weight: bold;
-    color: #f9faf8;
     margin: auto;
     background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
 }
 
 .sign-up:hover {
     background-color: #3370d3;
+    border-color: #fff;
+    color: #f9faf8;
 }
 
 
@@ -92,7 +97,6 @@ body {
 }
 
 /* SECTION 2 */
-
 .section-2 {
     height: 368px;
     display: flex;
@@ -141,7 +145,6 @@ p {
 }
 
 /* SECTION 3 */
-
 .section-3 {
     height: 368px;
     display: flex;
@@ -176,14 +179,14 @@ p {
 }
 
 .s4-wrapper {
-    width: 60%;
-    background-color: #3882f6;    
+    width: 40%;
+    background-color: #3882f6;
     border-radius: 6px;
     padding: 10px;
-    
+
 }
 
-.s4-leftside{
+.s4-leftside {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -192,30 +195,45 @@ p {
     margin: 10px;
 }
 
-h3{
+h3 {
     margin: 0;
     font-size: 26px;
 }
 
-.s4-text{
+.s4-text {
     padding: 0px;
 }
-
 
 .sign-up2 {
     width: 120px;
     height: 40px;
     border-radius: 8px;
     font-size: 18px;
-    font-weight:bold;
-    color: #1f2937;
+    font-weight: bold;
+    color: #3882f6;
     margin: 20px;
     background-color: #e3e3e3;
-    border-color: #fff;
-    
+    border-color: #1f2937;
+    border:solid 3px;
 }
 
 .sign-up2:hover {
-    background-color: #a7bcdd;
+    background-color: #3370d3;
     color: #fff;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1f2937;
+    height: 75px;
+    text-align: center;
+    color: #E5E7EB;
+    margin: auto;
+    padding: 5px;
+}
+
+
+a {
+    color: #3882f6;
+    text-decoration: underline;
 }
